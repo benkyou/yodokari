@@ -1,0 +1,80 @@
+<html>
+
+<head>
+
+    <title>yokodari</title>
+
+    <link href="css/study.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+
+    <div class="modal">
+
+        <section>
+
+            <h1>yokodari</h1>
+
+            <p>
+
+                What is Yokodari? Yokadari is a set of Japanese lists that are used to help you learn Japanese and get content organised
+                in a way that is easy for learning!
+
+            </p>
+
+            <p>
+
+                You can find a fuller set of words for Yokodari based lists on the <a href="https://benkyou.today">Benkyou website!</a>
+
+            </p>
+
+            <p>
+
+                &mdash; Benkyou Team
+
+            </p>
+
+        </section>
+
+    </div>
+
+    <div class="correct">Yep! That was correct!</div>
+    <div class="wrong">Nope! That wasnt correct!</div>
+
+    <header>
+
+        <span id="options"><input id="invert" type="checkbox"></input><label>Invert</label></span>
+
+        <span><a href="javascript:$('.modal').fadeIn(1000);">Help</a></span>
+
+    </header>
+
+    <section>
+
+        <p>Test your hiragana skills.</p>
+
+        <span id="character">--</span>
+
+        <input id="text-input" required="required" autofocus="autofocus" />
+
+    </section>
+
+    <footer>
+
+        <span>
+                <p><b>Your score</b></p>
+                <p><span id="correct">0</span> / <b><span id="overall">0</span></b></p>
+        </span>
+
+        <span> <a href="#">benkyou.today</a> </span>
+
+    </footer>
+
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="js/onload.js"></script>
+<script src="js/script.js"></script>
+
+</html>
