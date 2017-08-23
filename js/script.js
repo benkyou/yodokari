@@ -6,6 +6,7 @@ var type = type.substring(1, type.length);
 var API = "https://cdn.rawgit.com/benkyou/yokodari/50cc20a1/lists/" + type + ".json";
 
 $(document).prop('title', 'yokodari — ' + type);
+$('#content-header').text('Study your ' + type + ' skills.')
 
 $(document).ready(function () {
 
