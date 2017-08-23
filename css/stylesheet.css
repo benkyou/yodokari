@@ -1,0 +1,71 @@
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+html,
+body {
+  font-family: 'Roboto Condensed', Helvetica, Arial, sans-serif;
+  background: #1d1d1d;
+  color: #ffffff;
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none;
+  color: inherit;
+  border-bottom: 2px solid #FFFFFF; }
+
+div.border {
+  height: 8px;
+  width: 100%;
+  background: #E91E63;
+  position: fixed;
+  top: 0;
+  left: 0; }
+
+header, section {
+  padding: .5rem 0rem; }
+
+header {
+  min-height: 250px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column; }
+  header a {
+    border-bottom: 0px solid #FFFFFF; }
+  header h1 {
+    text-align: center;
+    text-transform: uppercase;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    font-size: 48pt; }
+    header h1 label {
+      font-size: 18pt;
+      background: #E91E63;
+      color: #FFFFFF;
+      padding: .4rem .7rem;
+      margin: 0rem 1rem;
+      text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.2);
+      border-radius: 12px 12px 12px 0px; }
+
+section {
+  width: 60%;
+  margin: auto; }
+  section h2 {
+    text-transform: uppercase;
+    color: white; }
+  section p {
+    text-align: justify; }
+  section ul {
+    list-style: none;
+    margin: 0;
+    padding: 0; }
+    section ul li {
+      text-indent: none;
+      text-transform: uppercase;
+      font-size: 18pt;
+      color: rgba(255, 255, 255, 0.9);
+      padding: .2rem 0rem; }
+
+footer {
+  padding: 1rem 0rem;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.1); }

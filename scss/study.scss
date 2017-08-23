@@ -1,16 +1,13 @@
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 
-html,body {
+html,
+body {
     margin: 0;
     padding: 0;
-
     min-height: 100%;
-
     font-family: 'Roboto Condensed', Helvetica, Arial, sans-serif;
-
     background: #1d1d1d;
     color: #ffffff;
-
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -26,8 +23,7 @@ input {
     outline: none;
     border: none;
     float: left;
-
-    background: rgba(255,255,255,0.2);
+    background: rgba(255, 255, 255, 0.2);
     color: #FFFFFF;
 }
 
@@ -44,7 +40,8 @@ label {
     font-weight: bold;
 }
 
-.correct, .wrong {
+.correct,
+.wrong {
     top: 1rem;
     left: 50%;
     width: 80%;
@@ -65,23 +62,17 @@ label {
 
 .modal {
     padding: 1rem;
-
     height: calc(100% - 2rem);
     width: calc(100% - 2rem);
-
     position: absolute;
-
-    background: rgba(0,0,0,0.5);
-    
+    background: rgba(0, 0, 0, 0.5);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
     section {
         width: 50%;
         margin: auto;
-
         h1 {
             text-align: center;
             text-transform: uppercase;
@@ -89,34 +80,28 @@ label {
     }
 }
 
-body > section {
+body>section {
     display: flex;
     flex-direction: column;
-    align-items: center; 
+    align-items: center;
     justify-content: center;
-
     width: 30%;
     height: calc(100% - 8.8rem);
-
     text-align: center;
     margin: auto;
-
     p {
         font-size: 12pt;
         text-transform: uppercase;
         font-weight: bold;
     }
-
     span {
         font-size: 42pt;
         height: 60px;
     }
-        
     span#options {
         display: flex;
     }
-
-    input{
+    input {
         width: 60%;
         height: 42px;
         margin: 2rem auto;
@@ -126,17 +111,16 @@ body > section {
     }
 }
 
-header,footer {
+header,
+footer {
     display: flex;
-    justify-content: space-between; 
-    align-items: center; 
+    justify-content: space-between;
+    align-items: center;
     padding: 1rem;
     height: 30px;
-
     p {
         margin: 0;
     }
-
     input[type=checkbox] {
         -webkit-appearance: none;
         -moz-appearance: none;
@@ -144,15 +128,12 @@ header,footer {
         width: 18px;
         border: 1px solid #b7b8b9;
         border-radius: 2px;
-
         &+label {
             color: #b7b8b9;
         }
-
         &:checked {
             border-color: #FFFFFF;
         }
-
         &:checked:after {
             content: "\f00c";
             font-family: fontawesome;
@@ -162,12 +143,10 @@ header,footer {
             color: #FFFFFF;
             line-height: 16px;
         }
-
         &:checked+label {
             color: #FFFFFF;
         }
     }
-
     span {
         font-size: 12pt;
         text-transform: uppercase;
@@ -176,13 +155,10 @@ header,footer {
 }
 
 @media screen and (max-width: 1280px) {
-
     section {
         width: 80%;
-    
         margin: auto;
-    
-        input{
+        input {
             width: 80%;
             height: 42px;
             margin: 2rem auto;
@@ -190,5 +166,4 @@ header,footer {
             font-size: 18pt;
         }
     }
-
 }

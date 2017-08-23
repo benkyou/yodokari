@@ -1,5 +1,6 @@
 @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
   min-height: 100%;
@@ -34,7 +35,8 @@ label {
   text-transform: uppercase;
   font-weight: bold; }
 
-.correct, .wrong {
+.correct,
+.wrong {
   top: 1rem;
   left: 50%;
   width: 80%;
@@ -93,26 +95,32 @@ body > section {
     font-size: 18pt;
     font-family: 'Roboto', sans-serif; }
 
-header, footer {
+header,
+footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
   height: 30px; }
-  header p, footer p {
+  header p,
+  footer p {
     margin: 0; }
-  header input[type=checkbox], footer input[type=checkbox] {
+  header input[type=checkbox],
+  footer input[type=checkbox] {
     -webkit-appearance: none;
     -moz-appearance: none;
     height: 18px;
     width: 18px;
     border: 1px solid #b7b8b9;
     border-radius: 2px; }
-    header input[type=checkbox] + label, footer input[type=checkbox] + label {
+    header input[type=checkbox] + label,
+    footer input[type=checkbox] + label {
       color: #b7b8b9; }
-    header input[type=checkbox]:checked, footer input[type=checkbox]:checked {
+    header input[type=checkbox]:checked,
+    footer input[type=checkbox]:checked {
       border-color: #FFFFFF; }
-    header input[type=checkbox]:checked:after, footer input[type=checkbox]:checked:after {
+    header input[type=checkbox]:checked:after,
+    footer input[type=checkbox]:checked:after {
       content: "\f00c";
       font-family: fontawesome;
       position: relative;
@@ -120,9 +128,11 @@ header, footer {
       left: 3px;
       color: #FFFFFF;
       line-height: 16px; }
-    header input[type=checkbox]:checked + label, footer input[type=checkbox]:checked + label {
+    header input[type=checkbox]:checked + label,
+    footer input[type=checkbox]:checked + label {
       color: #FFFFFF; }
-  header span, footer span {
+  header span,
+  footer span {
     font-size: 12pt;
     text-transform: uppercase;
     font-weight: bold; }
