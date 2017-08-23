@@ -68,6 +68,8 @@ label {
     .modal section h1 {
       text-align: center;
       text-transform: uppercase; }
+    .modal section p {
+      text-align: justify; }
 
 body > section {
   display: flex;
