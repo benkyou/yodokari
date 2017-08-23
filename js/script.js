@@ -1,9 +1,9 @@
 var overall = 0;
-var correct = 0;
+var correct = 1;
 
 var type = $(location).attr('hash');
 var type = type.substring(1, type.length);
-var API = "https://benkyou.github.io/yokodari/lists/" + type + ".json";
+var API = "https://cdn.rawgit.com/benkyou/yokodari/50cc20a1/lists/" + type + ".json";
 
 $(document).prop('title', 'yokodari — ' + type);
 
@@ -62,7 +62,7 @@ function check_response() {
         }
     });
 
-    overall++;
+    overall++; 
 
     $("#correct").text(correct);
     $("#overall").text(overall);
@@ -93,5 +93,5 @@ function new_letter() {
     
 }
 
-console.log(new_letter())
-$('.modal').toggle(0)
+new_letter();
+$('.modal').toggle(0);
