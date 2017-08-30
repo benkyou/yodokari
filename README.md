@@ -1,4 +1,4 @@
-# yokodari 🐚
+# yodokari 🐚
 
 Learning specific vocabulary can be an absolute pain, we know that. This site is designed to constantly throw Japanese vocabulary at you (in specific lists) so that you can memorise there and on the spot! Often we use it for learning subtle differences between words, as thats probably one of the most painful things about learning a new language!
 
