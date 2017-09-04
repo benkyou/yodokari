@@ -55,7 +55,7 @@ function check_response() {
             }, {});
         }
 
-        if (jsonContent[character] == content) {
+        if (jsonContent[character].toLowerCase() == content.toLowerCase()) {
             correct++;
             $(".correct").stop(!0, !0).fadeIn(100).delay(800).fadeOut(100)
         } else {
