@@ -89,7 +89,7 @@ body > section {
   body > section span#options {
     display: flex; }
   body > section input {
-    width: 60%;
+    width: 100%;
     height: 42px;
     margin: 2rem auto;
     text-align: center;
