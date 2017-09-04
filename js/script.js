@@ -3,7 +3,7 @@ var correct = 1;
 
 var type = $(location).attr('hash');
 var type = type.substring(1, type.length);
-var API = "https://benkyou.today/yokodari/lists/" + type + ".json";
+var API = "https://benkyou.today/yodokari/lists/" + type + ".json";
 
 $(document).prop('title', 'yodokari — ' + type);
 $('#content-header').text('Study your ' + type + ' skills.')
